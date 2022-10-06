@@ -1,0 +1,10 @@
+name: ProtectAddon
+version: '1.9'
+main: ru.spigotmc.destroy.protectaddon.ProtectAddon
+softdepend: [ DecentHolograms, HolographicDisplays, ProtectionStones ]
+api-version: 1.13
+commands:
+  protectaddon:
+    aliases:
+      - 'psa'
+      - 'pa'

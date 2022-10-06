@@ -1,0 +1,38 @@
+# стандартное название региона если его нет в списке
+# регионов "region-names"
+standart-name: '&7Обычный приват.'
+default-lines:
+  - '&fВладелец: &a%player%'
+
+merge-region: '&eProtectAddon &8> &7Нельзя создать &c2 &7привата в &d1&7 регионе!'
+no-perm-message: '&eProtectAddon &8> #fb0000У Вас нет прав.'
+
+# кастомные имена для приватов.
+# использование HEX цветов (#цветовой код)
+# РАБОТАЕТ С ВЕРСИИ 1.16+
+# wither-break: boolean | Если true, то визер может уничтожить приват.
+# hologram: boolean | Если true, то голограммы будут видны.
+# place-sound: sound | звук при установке блока привата.
+# break-sound: sound | звук при ломании блока привата.
+# Список всех звуков https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+region-names:
+  EMERALD_ORE:
+    name: '#00fb30О#0cfb40г#17fb4fр#23fb5fо#2efc6eм#3afc7eн#45fc8dы#51fc9dй #5cfcacп#68fcbcр#73fdcbи#7ffddbв#8afdeaа#96fdfaт'
+    lines:
+      - '&fВладелец: #17d000%player%'
+    place-sound: BLOCK_BEACON_ACTIVATE
+    break-sound: BLOCK_BEACON_DEACTIVATE
+    wither-break: false
+    hologram: true
+  DIAMOND_BLOCK:
+    name: '#00d9ffБ#0ddcffо#19dffeл#26e2feь#32e5fdш#3fe8fdо#4bebfdй #58eefcп#64f1fcр#71f4fbи#7df7fbв#8afafaа#96fdfaт'
+    lines:
+      - '&fВладелец: #84f0fb%player%'
+    wither-break: true
+    hologram: true
+  IRON_BLOCK:
+    name: '#afafafМ#b2b2b2а#b4b4b4л#b7b7b7е#bababaн#bdbdbdь#bfbfbfк#c2c2c2и#c5c5c5й #c7c7c7п#cacacaр#cdcdcdи#d0d0d0в#d2d2d2а#d5d5d5т'
+    lines:
+      - '&fВладалец: #afafaf%player%'
+    wither-break: true
+    hologram: true
